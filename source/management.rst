@@ -8,10 +8,10 @@ Table of Contents:
 .. toctree::
   :maxdepth: 1
 
-  management/quota-management.rst
-  management/access-control.rst
-  management/mfa.rst
-
+  management/quota-management
+  management/access-control
+  management/mfa
+  management/renaming-projects
 
 The Management portal is available from the left hand menu of the cloud dashboard.
 For a standard user, that is someone that does not have one of the administrator
