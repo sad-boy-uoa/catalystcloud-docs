@@ -25,11 +25,11 @@ you're renting quickly, easily, and automatically, through a variety of tools.
 .. image:: assets/access_methods.png
 
 To rent resources on Catalyst Cloud, you provision services. Catalyst Cloud
-services are pieces of hardware that we have in one of our data centers, that we
-make easy and convinent to use by controling them with OpenStack.
+services are pieces of hardware and software that we have in one of our data
+centers, that we make easy and convinent to use by controling them with OpenStack.
 
-By exposing our hardware as services, we remove a lot of complexity from your
-day to day work. For example: you need to give a server it's own static IP
+By exposing our hardware and software as services, we remove a lot of complexity
+from your day to day work. For example: you need to give a server it's own static IP
 address. You open a terminal and run:
 
 .. code-block:: console
@@ -57,7 +57,7 @@ address. You open a terminal and run:
   | updated_at          | None                                 |
   +---------------------+--------------------------------------+
 
-Now you've got a static IP address. Now you run:
+Now you've rented a static IP address. Now you run:
 
 .. code-block:: console
 
