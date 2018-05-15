@@ -36,6 +36,6 @@ Block storage service
 =====================
 
 The block storage service provides volumes of data storage that you can attach
-to instances. On a physical computer, you can imagine block storage volumes as
-hard disk drives and solid state drives. Block storage volumes can be as large
-or as small as you want them to be. 
+to instances. You could imagine block storage volumes as hard disk drives and
+solid state drives on a physical computer. Block storage volumes can be as large
+or as small as you want them to be.
