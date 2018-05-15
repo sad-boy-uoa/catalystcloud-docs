@@ -96,4 +96,10 @@ Object storage is a storage system unique to cloud computing. Instead of provisi
 a volume of storage capacity, you just upload a file, and Catalyst Cloud handles
 it's storage.
 
-One of object storage's biggest advantages is it's price.
+One of object storage's biggest advantages is it's price. As an illustration,
+imagine you're provisioning a block storage volume for a database. Many of the
+bits you've provisioned within that volume are unused 0s, not yet used by the
+database to store any data. With object storage, you only pay for bits your
+files are using, not any empty, unproductive bits. This allows you to minimise
+your costs. Secondarily, data stored in object storage can be more efficently
+stored than block storage
