@@ -48,12 +48,15 @@ is how you turn an instance from a mostly useless collection of CPU and memory
 to a useful, working computer. The process of installing operating systems onto
 volumes is made easier with the image service, which we'll talk about later.
 
-You provision block storage volumes in increments of 1 GB. You pay for block storage
-by the quantity of GB, multiplied by the number of hours you have provisioned them.
-When you don't want the block storage volume anymore, you can delete it, and you'll
-stop paying for it. You can provision a few large volumes, or provision many smaller
-volumes, it's entirely up to you. There is no minimum or maximum time you can
-provision a volume. Very simple.
+Block volumes are automatically replicated multiple times across the data centre
+to make your data very durable, and very available.
+
+You provision block storage volumes in increments of 1 GB. When you don't want
+the block storage volume anymore, you can delete it. You can provision a few
+large volumes, or provision many smaller volumes, it's entirely up to you.
+There is no minimum or maximum time you can provision a volume. Very simple.
+
+.. I think this is too much content on the billing system. ^^^
 
 Network service
 ===============
@@ -84,7 +87,13 @@ operating system will work on the Catalyst Cloud the first time you try.
 
 Among the operating systems provided out of the box on the Catalyst Cloud image
 service are Ubuntu, Microsoft Windows 2012-2016, Debian, and CentOS. You can also
- create your own custom images to account for your own specific needs.
+create your own custom images to account for your own specific needs.
 
-Linux images are free, but Windows images are priced per hour, and are priced
-based on the size of the instance they are attached to.
+Object storage service
+======================
+
+Object storage is a storage system unique to cloud computing. Instead of provisioning
+a volume of storage capacity, you just upload a file, and Catalyst Cloud handles
+it's storage.
+
+One of object storage's biggest advantages is it's price.
