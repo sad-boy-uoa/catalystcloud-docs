@@ -9,7 +9,7 @@ Contents:
 .. toctree::
    :maxdepth: 1
 
-   tutorials/the-basics-of-catalyst-cloud
+   tutorials/basics/the-basics-of-catalyst-cloud
    tutorials/deploying-a-hpc-slurm-cluster
    tutorials/deploying-highly-available-instances-with-keepalived
    tutorials/downloading-compute-instances-volumes

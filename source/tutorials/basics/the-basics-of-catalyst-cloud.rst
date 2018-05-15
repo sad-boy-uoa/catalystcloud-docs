@@ -22,7 +22,7 @@ OpenStack gives you the ability to rent exactly what you need, without wastefull
 renting capacity you don't need, by allowing you to change how much
 you're renting quickly, easily, and automatically, through a variety of tools.
 
-.. image:: ../_static/access_methods.png
+.. image:: assets/access_methods.png
 
 To rent resources on Catalyst Cloud, you provision services. Catalyst Cloud
 services are pieces of hardware that we have in one of our data centers, that we

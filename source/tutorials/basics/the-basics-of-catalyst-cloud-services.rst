@@ -15,7 +15,7 @@ we don't know *how* we can do it.
 Compute service
 ===============
 
-.. image:: sidebar_icons/instance_sidebar_icon.png
+.. image:: assets/sidebar_icons/instance_sidebar_icon.png
 
 The compute service provides compute power on demand, in the form of "instances".
 If you like to think about physical computers, you can imagine an instance as
