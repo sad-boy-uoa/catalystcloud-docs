@@ -68,3 +68,9 @@ powerful. Every action on Catalyst Cloud can be performed just as quickly.
 
 Now we understand the basic idea behind Catalyst Cloud, let's explore what
 services Catalyst Cloud provides.
+
+:ref:`Next page <services_on_the_catalyst_cloud>`
+
+..
+  This next page link is a temporary solution. Eventually, I will add a next
+  page element that looks like an arrow, or something.
