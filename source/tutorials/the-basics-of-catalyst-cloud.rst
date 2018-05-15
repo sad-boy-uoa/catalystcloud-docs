@@ -18,7 +18,7 @@ you need to run a business's applications.
 
 .. _`OpenStack`: https://www.openstack.org/software/
 
-OpenStack gives you te ability to rent exactly what you need, without wastefully
+OpenStack gives you the ability to rent exactly what you need, without wastefully
 renting capacity you don't need, by allowing you to change how much
 you're renting quickly, easily, and automatically, through a variety of tools.
 
