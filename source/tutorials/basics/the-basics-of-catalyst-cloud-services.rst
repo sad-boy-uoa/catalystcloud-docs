@@ -99,14 +99,21 @@ don't need to wait for a human to do things for you.
 
 .. note::
   There are a few exceptions where human help *is* required for security
-  reasons. Signing up for the first time, increasing your quota, and
-  whitelisting IP addresses are the most common. We intend to automate these in
-  the future.
+  reasons. Signing up for the first time, increasing your
+  :ref:`quota<quota_info>`, and whitelisting IP addresses are the most common.
+  We intend to automate these in the future.
 
 Resources on the Catalyst Cloud can be created, deleted, assigned, resized,
 copied, and edited at your convinence using one of the many tools used to
 interact with the Catalyst Cloud. Performing these administrative actions do not
 cost anything.
+
+With the Catalyst Cloud, you have total control over your infrastructure. You
+have root/console access to your instances, and Catalyst Cloud places no
+restrictions on what software you use. This is because each
+:ref:`project<project_info>` on the Catalyst Cloud is isolated from all the
+other projects. Isolation means that the resources and the actions taken in one
+project can't effect anything else outside of that project.
 
 ***************************************
 How much do I need to pay for services?
@@ -119,7 +126,7 @@ you'll use it.
 Catalyst Cloud charges by the hour. Each hour, we check what resources you're
 using, and add a small amount to your bill. Each month, we send you an invoice
 for the bill you've accumulated that month. This means you can save money by
-disabiling your servers for even short periods of time, such as overnight.
+disabiling your resources for even short periods of time, such as overnight.
 
 This is useful information to apply for situations like automated testing, for
 example. Many organisations will have a staging server running 24/7 where they
@@ -131,5 +138,6 @@ will provide great cost savings.
 
 There is no minimum limit for the resources you need to consume on the Catalyst
 Cloud per hour. In fact, we encourage you to disable your resources if you don't
-need them. This flexability is one of the biggest reasons so many organisations
-are migrating their applications to the Catalyst Cloud.
+need them. This flexability is one of the biggest reasons so many in-the-know
+organisations are building and migrating their applications to the Catalyst
+Cloud.

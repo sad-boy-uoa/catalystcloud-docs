@@ -1,3 +1,5 @@
+.. _project_info:
+
 ##################
 What is a project?
 ##################
