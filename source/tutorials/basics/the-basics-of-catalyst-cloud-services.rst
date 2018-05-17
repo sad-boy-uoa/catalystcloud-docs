@@ -93,4 +93,43 @@ What can you do with services?
 
 Catalyst Cloud is an entirely automated platform that adheres to the NSIT
 definition of `true cloud computing <https://csrc.nist.gov/publications/d
-etail/sp/800-145/final>`_. That means Catalyst Cloud
+etail/sp/800-145/final>`_. Among other things, that means you have total and
+near instant control over all the services you use on the Catalyst Cloud. You
+don't need to wait for a human to do things for you.
+
+.. note::
+  There are a few exceptions where human help *is* required for security
+  reasons. Signing up for the first time, increasing your quota, and
+  whitelisting IP addresses are the most common. We intend to automate these in
+  the future.
+
+Resources on the Catalyst Cloud can be created, deleted, assigned, resized,
+copied, and edited at your convinence using one of the many tools used to
+interact with the Catalyst Cloud. Performing these administrative actions do not
+cost anything.
+
+***************************************
+How much do I need to pay for services?
+***************************************
+
+It's important to discuss how a true cloud computing platform like Catalyst
+Cloud charges you for the resources you use, because it strongly effects the way
+you'll use it.
+
+Catalyst Cloud charges by the hour. Each hour, we check what resources you're
+using, and add a small amount to your bill. Each month, we send you an invoice
+for the bill you've accumulated that month. This means you can save money by
+disabiling your servers for even short periods of time, such as overnight.
+
+This is useful information to apply for situations like automated testing, for
+example. Many organisations will have a staging server running 24/7 where they
+will deploy their application to test it before applying changes to the main,
+production server. Running the staging server 24/7 is wasteful, however.
+Instead, the organisation could implement an automated process that will only
+create a staging server when they are actively testing their application. This
+will provide great cost savings.
+
+There is no minimum limit for the resources you need to consume on the Catalyst
+Cloud per hour. In fact, we encourage you to disable your resources if you don't
+need them. This flexability is one of the biggest reasons so many organisations
+are migrating their applications to the Catalyst Cloud.
