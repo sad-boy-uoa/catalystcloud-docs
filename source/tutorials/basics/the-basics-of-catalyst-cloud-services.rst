@@ -10,7 +10,9 @@ controling them with OpenStack. Now we'll learn about the various services
 offered by Catalyst Cloud so that we know *what* we can do on the Catalyst Cloud,
 even if right now we don't know *how* we can do it yet.
 
-.. _compute_basics:
+****************************************
+What services are on the Catalyst Cloud?
+****************************************
 
 Compute service
 ===============
@@ -22,15 +24,6 @@ come in many sizes, as you can see on the Catalyst Cloud's `compute page`_.
 
 .. _`compute page`: https://catalystcloud.nz/services/iaas/compute/#prices
 
-While you are provisioning an instance, you will pay for that instance on a per hour
-basis. When you don't want the instance anymore, you can delete it, and you'll
-stop paying for it. There is no minimum or maximum time you can provision an instance.
-Very simple.
-
-Keep in mind that just like a CPU is useless on it's own without an operating
-system to control it, an instance needs to be attached to an operating system
-to do anything useful. Don't worry, we'll talk about that later in the block
-storage and image service sections.
 
 Block storage service
 =====================
@@ -41,22 +34,10 @@ solid state drives on a physical computer. Block storage volumes can be as large
 or as small as you want them to be.
 
 By attaching a volume to an instance, you mount it, making the file system
-available to the CPU and memory. This could be to provide the instance
-with additional storage space. Additionally, by installing operating systems
-onto volumes, you can boot the attached instance into the operating system. This
-is how you turn an instance from a mostly useless collection of CPU and memory
-to a useful, working computer. The process of installing operating systems onto
-volumes is made easier with the image service, which we'll talk about later.
+available to the CPU and memory.
 
 Block volumes are automatically replicated multiple times across the data centre
 to make your data very durable, and very available.
-
-You provision block storage volumes in increments of 1 GB. When you don't want
-the block storage volume anymore, you can delete it. You can provision a few
-large volumes, or provision many smaller volumes, it's entirely up to you.
-There is no minimum or maximum time you can provision a volume. Very simple.
-
-.. I think this is too much content on the billing system. ^^^
 
 Network service
 ===============
@@ -102,4 +83,4 @@ bits you've provisioned within that volume are unused 0s, not yet used by the
 database to store any data. With object storage, you only pay for bits your
 files are using, not any empty, unproductive bits. This allows you to minimise
 your costs. Secondarily, data stored in object storage can be more efficently
-stored than block storage
+stored than block storage, allowing Catalyst Cloud to charge less for it.
