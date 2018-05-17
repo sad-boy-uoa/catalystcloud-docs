@@ -2,8 +2,8 @@
 The basics of Catalyst Cloud
 ############################
 
-Welcome to the Catalyst Cloud documentation! This documentation is for those
-who know almost nothing about Catalyst Cloud.
+Welcome to the Catalyst Cloud documentation! This documentation is for those who
+know almost nothing about Catalyst Cloud.
 
 ***************************
 What is the Catalyst Cloud?
@@ -18,19 +18,20 @@ you need to run a business's applications.
 
 .. _`OpenStack`: https://www.openstack.org/software/
 
-OpenStack gives you the ability to rent exactly what you need, without wastefully
-renting capacity you don't need, by allowing you to change how much
+OpenStack gives you the ability to rent exactly what you need, without
+wastefully renting capacity you don't need, by allowing you to change how much
 you're renting quickly, easily, and automatically, through a variety of tools.
 
 .. image:: assets/access_methods.png
 
 To rent resources on Catalyst Cloud, you provision services. Catalyst Cloud
 services are pieces of hardware and software that we have in one of our data
-centers, that we make easy and convinent to use by controling them with OpenStack.
+centers, that we make easy and convinent to use by controling them with
+OpenStack.
 
 By exposing our hardware and software as services, we remove a lot of complexity
-from your day to day work. For example: you need to give a server it's own static IP
-address. You open a terminal and run:
+from your day to day work. For example: you need to give a server it's own
+static IP address. You open a terminal and run:
 
 .. code-block:: console
 
