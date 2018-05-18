@@ -1,8 +1,8 @@
 .. _command-line-interface:
 
-############################
-Command line interface (CLI)
-############################
+###########################################
+Installing the command line interface (CLI)
+###########################################
 
 This section describes how you can install and configure the Catalyst Cloud
 command line interface.

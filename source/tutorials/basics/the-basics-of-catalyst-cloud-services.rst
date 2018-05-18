@@ -141,3 +141,15 @@ Cloud per hour. In fact, we encourage you to disable your resources if you don't
 need them. This flexability is one of the biggest reasons so many in-the-know
 organisations are building and migrating their applications to the Catalyst
 Cloud.
+
+|
+
+Now that we've discussed what services are available on the Catalyst Cloud, we
+can discuss how to use them.
+
+
+:ref:`Next page <access_to_catalyst_cloud>`
+
+..
+  This next page link is a temporary solution. Eventually, I will add a next
+  page element that looks like an arrow, or something.
