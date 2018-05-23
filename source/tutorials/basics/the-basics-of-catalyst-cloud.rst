@@ -13,8 +13,8 @@ Catalyst Cloud is a cloud computing platform, based entirely in New Zealand.
 
 Catalyst Cloud was built with the open source project, `OpenStack`_. OpenStack
 is a piece of software that allows users like yourself to rent servers. You can
-rent things like storage space, compute capacity, or internet access. Everything
-you need to run a business's applications.
+rent things such as storage space, compute capacity, or internet access.
+Everything you need to run a business's applications.
 
 .. _`OpenStack`: https://www.openstack.org/software/
 
