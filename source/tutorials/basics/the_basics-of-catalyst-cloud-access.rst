@@ -33,4 +33,15 @@ must:
    talk to. This is done with an OpenStack enviroment file (RC file).
 
 We have written a best practice guide to help you do this :ref:`here
-<command-line-interface>`. We're also working on an experemental
+<command-line-interface>`. We're also working on an experemental command line
+client designed to help you get up on the command line as quickly and
+intuitively as possible. You can `try it here
+<https://github.com/catalyst-cloud/openstackclient-container>`_.
+
+After installing and configuring the CLI, you may want to familiarise yourself
+with it's functioning by following :ref:`this tutorial
+<using-the-command-line-interface>` to use it to deploy a compute instance.
+
+For more indepth documentation, the offical OpenStack documentation is the most
+thorough source of information. You can `find it here
+<https://docs.openstack.org/python-openstackclient>`_.
